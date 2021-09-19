@@ -12,14 +12,18 @@
     <div class="container mt-4">
         <div class="row">
             <div class="col">
-                <h3>Quiz Application</h3>
+                <h2>Quiz Application</h2>
+            </div>
+            <div class="col">
+                <button id="make_button" class="btn btn-secondary mx-3 px-3">Make</button>
+                <button class="btn btn-danger mx-3 px-3">Reset</button>
             </div>
         </div>
         <div class="row">
             <div class="col m-3">
-                <form id="mainForm">
-                    <button id="startBtn" class="btn btn-primary">Get Started...</button>
-                </form>
+                <div id="mainCanvas">
+                    <button id="startBtn" class="btn btn-primary px-3">Take</button>
+                </div>
             </div>
 
         </div>
@@ -30,7 +34,9 @@
         </div>
     </div>
 
+    <script src="src/db.js"></script>
     <script src="src/classes.js"></script>
+    <script src="src/quiz.js"></script>
     <script src="src/main.js"></script>
 </body>
 </html>

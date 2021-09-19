@@ -11,3 +11,13 @@ function QuestionAnswer(question_id, question_answer) {
     this.question_id = question_id;
     this.question_answer = question_answer;
 }
+
+
+class QuizSet {
+    constructor(quiz_title, quiz_description, questions) {
+        this.quiz_title = quiz_title;
+        this.quiz_description = quiz_description;
+        this.questions = questions;
+    }
+
+}
